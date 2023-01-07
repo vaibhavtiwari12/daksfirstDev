@@ -1,0 +1,278 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.navbar-brand h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 30px !important;
+}
+.navbar-brand div {
+  background: url(../images/daksfirstBlue.png) no-repeat top left;
+  display: inline-block;
+  height: 50px;
+  width: 55px;
+  background-size: contain;
+}
+
+.background-header .navbar-brand div {
+  background: url(../images/daksfirstBlue.png) no-repeat top left;
+  display: inline-block;
+  height: 50px;
+  width: 55px;
+  background-size: contain;
+}
+.background-header .navbar-brand h2 {
+  color: #00203f !important;
+}
+
+.navbar-brand span {
+  padding-top: 8px;
+}
+.box-shadow-card {
+  box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+}
+.image-size-override {
+  max-width: 6em!important;
+}
+.justify-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.navbar .navbar-nav a.nav-link {
+  transition: all 0.1s;
+}
+
+.navbar .navbar-nav .nav-link:hover, .navbar .navbar-nav .active>.nav-link, .navbar .navbar-nav .nav-link.active, .navbar .navbar-nav .nav-link.show, .navbar .navbar-nav .show>.nav-link {
+  border-bottom: 2px solid #00203f;
+}
+
+#types ul li a {
+  text-transform: capitalize;
+  width: 100%;
+  padding: 30px 30px;
+  display: inline-block;
+  background-color: #f7f7f7;
+  font-size: 20px;
+  color: #aaaaaa;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#types ul .ui-tabs-active a {
+  color: #00203f;
+}
+
+#types ul li a i {
+  float: right;
+  margin-top: 5px;
+}
+
+.bottom-spacer {
+  margin-top: 140px;
+  background-color: #f7f7f7;
+}
+
+.cookie {
+  padding-top: 140px;
+}
+
+.soon-info {
+  margin-top: 100px;
+}
+
+.coming-soon-contact {
+  margin-top: 70px;
+}
+
+.button-home {
+  margin-top: 25px;
+}
+.gradient1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+}
+.gradient3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  height: 100%;
+  width: 100%;
+}
+.gradient-adv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+}
+.gradient-inv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+}
+.bg-advisory {
+  background: url("../images/bg-advisory.jpg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.bg-inv {
+  background: url("../images/investement-wide-2.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.bg-contact {
+  background: url("../images/contact-title.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.gradient-contact {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+}
+.bg-abt {
+  background: url("../images/port-3.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.bg-people {
+  background: url("../images/people3.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.bg-partner {
+  background: url("../images/partner-bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.bg-portfolio {
+  background: url("../images/port-1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.gradient-abt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+}
+.img-centering {
+  padding-top: 30px;
+}
+
+.tabs-content ul {
+  list-style-type: circle;
+  line-height: 30px;
+  padding-left: 20px;
+}
+.tabs-content ul li {
+  font-size: 14px;
+  color: #7a7a7a;
+  margin-bottom: 0px;
+}
+.fun-facts .left-image img {
+  width: 100%;
+  overflow: hidden;
+}
+.fun-facts .right-content {
+  padding: 45px 45px 45px 30px;
+}
+.location {
+  margin-top: 30px;
+}
+footer {
+  background-color: #6c757d;
+}
+@media (min-width: 1200px) {
+  .navbar-expand-lg .container {
+    max-width: 100%;
+    padding-left: 175px;
+    padding-right: 175px;
+  }
+}
+@media (max-width: 992px) {
+  .location {
+    margin-top: 9px;
+  }
+  .login-button {
+    margin: 15px 0px !important;
+  }
+  .option-button {
+    margin-top: 20px !important;
+  }
+  .contact-information {
+    margin-top: 30px;
+  }
+  .callback-form {
+    margin-top: 30px;
+  }
+  .single-services {
+    margin-top: 0px;
+  }
+  .more-info {
+    margin-top: 30px;
+  }
+  .team {
+    margin-top: 30px;
+  }
+  .single-services .col-md-4 {
+    display: none !important;
+  }
+  .height-adjuster {
+    height: 610px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .col-md-8 {
+    -ms-flex: 1;
+    flex: 1;
+    max-width: 100%;
+    margin-top: 30px;
+  }
+  .about-info .col-md-6 {
+    -ms-flex: none;
+    flex: none;
+    max-width: 100%;
+  }
+}
