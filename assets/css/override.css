@@ -48,10 +48,6 @@
   justify-content: center;
 }
 
-.navbar .navbar-nav a.nav-link {
-  transition: all 0.1s;
-}
-
 .navbar .navbar-nav .nav-link:hover, .navbar .navbar-nav .active>.nav-link, .navbar .navbar-nav .nav-link.active, .navbar .navbar-nav .nav-link.show, .navbar .navbar-nav .show>.nav-link {
   border-bottom: 2px solid #00203f;
 }
@@ -69,6 +65,16 @@
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
+}
+input {
+  font-size: 0.8rem!important;
+  line-height: 1.6;
+}
+label {
+  font-size: 0.8rem!important;
+}
+.remeber-me{
+  font-size: 0.8rem!important;
 }
 
 #types ul .ui-tabs-active a {
@@ -104,7 +110,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.8);
   height: 100%;
   width: 100%;
 }
@@ -221,14 +227,133 @@
 .location {
   margin-top: 30px;
 }
+.visible {
+  visibility: visible;
+}
+.invisible {
+  visibility: hidden;
+}
+.slide-1{
+  background-position: top center!important;
+}
 footer {
   background-color: #6c757d;
 }
+.navbar .navbar-nav .nav-item {
+  margin: 0px 0.4rem;
+}
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.signin-button{
+    background-color: #00203f;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 12px 30px;
+    border-radius: 30px;
+    display: inline-block;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.signin-button:hover {
+  color: #6c757d;
+  background-color: #fff;
+  border-color: #d3d3d3;
+}
+
+.social-icons-custom a {
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+  line-height: 34px;
+  text-align: center;
+  background-color: #00203f;
+  color: #fff !important;
+  border-radius: 50%;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.social-icons-custom a:hover {
+  background-color: #fff;
+  color: #00203f !important;
+}
+
+footer ul.social-icons li a:hover {
+  background-color: #00203f;
+  color: #fff;
+}
+
+
 @media (min-width: 1200px) {
   .navbar-expand-lg .container {
     max-width: 100%;
     padding-left: 175px;
     padding-right: 175px;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .container {
+    max-width: 100%;
+    padding-left: 175px;
+    padding-right: 175px;
+  }
+  .navbar .navbar-nav a.nav-link {
+    transition: all 0.1s;
+    height: 2.5em;
+  }
+  /* MENU HOVER LOGIC */
+  .nav-item{
+    position: relative;
+  }
+  .nav-link {
+    border-bottom: 0px!important;
+  }
+  .nav-item::after{
+    display: block;
+    border-bottom: 2px solid #00203f;
+    content: "";
+    width: 0;
+    top: 2.5rem;
+    position: absolute;
+    left: 4px;
+    transition: all .4s;
+  }
+
+  .nav-item::after{
+    display: block;
+    border-bottom: 2px solid #00203f;
+    content: "";
+    width: 0;
+    top: 2.5rem;
+    position: absolute;
+    left: 4px;
+    transition: all .4s;
+  }  
+  .nav-item:hover::after{
+    width: 91%;
+  }
+  .active::after{
+    width: 91%;
+  }
+  .nav-item-login-button::after{
+    display: block;
+    border-bottom: 2px solid #00203f;
+    content: "";
+    width: 0;
+    top: 2.5rem;
+    position: absolute;
+    left: 15px;
+    transition: all .4s;
+  }
+  .nav-item-login-button:hover::after{
+    width: 68%;
   }
 }
 @media (max-width: 992px) {

@@ -21,11 +21,12 @@
     <link rel="stylesheet" href="assets/css/templatemo-finance-business.css">
  <!--    <link rel="stylesheet" href="assets/css/owl.css"> -->
     <link rel="stylesheet" href="assets/css/override.css">
-<!--
-
- 
-
--->
+    <script>
+        function submita(){
+            document.getElementById("form-error").classList.remove("invisible");
+            document.getElementById("form-error").classList.add("visible");
+        }
+    </script>
   </head>
 
   <body>
@@ -88,7 +89,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact Us</a>
               </li>
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" href="partnering.html">Partner With Us</a>
               </li>
               <li class="nav-item nav-item-login-button">
@@ -101,19 +102,37 @@
     </header>
 
     <!-- Page Content -->
-    <div class="page-heading header-text bg-partner">
+    <div class="page-heading header-text bg-abt">
       <div class="gradient-abt"></div>
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h1>Partnering</h1>
+            <h1>Login</h1>
             
           </div>
         </div>
       </div>
     </div>
+    <div class="text-center mt-5">
+        <form class="form-signin" >
+            <img class="mb-4" src="./assets/images/daksfirstBlue.png" alt="" width="72" height="72">
+            <h4 class="mb-4">Sign In</h4>
+            <label for="inputEmail" class="sr-only">Email address</label>
+            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+            <label for="inputPassword" class="sr-only">Password</label>
+            <input type="password" id="inputPassword" class="form-control mt-3" placeholder="Password" required="">
+            <div class="checkbox mb-3 mt-3">
+            <label class="d-flex justify-content-center">
+                <input type="checkbox" value="remember-me"> 
+                <span class="remeber-me ml-1">Remember me</span>
+            </label>
+            </div>
+            <button class="btn btn-lg btn-primary btn-block signin-button" type="button" onclick="submita()">Sign in</button>
+            <label id="form-error" class="text-danger mt-2 invisible">&#9747; Invalid Email Or Password</label>
+        </form>
+    </div>
 
-    <div class="more-info about-info">
+  <!--   <div class="more-info about-info">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -121,18 +140,24 @@
               <div class="row">
                 <div class="col-md-6 align-self-center">
                   <div class="right-content">
-                    <h4>Partnering With Us</h4>
-                    <h5 class="pt-5">Investors</h5>
-                    <p class="pt-3">Our funds are backed by family offices, pension funds and highly regards international fund managers. We value the close working relationships we have with our investors and actively look for opportunities where our investors can co-invest alongside Daksfirst. </p>                    
-                    <p>We welcome discussions with potential new institutional investors in our funds. Please feel free to reach out to us through the contact us page.</p>                    
-                    <h5 class="pt-2">Deal Advisors</h5>  
-                    <p  class="pt-3"> Daksfirst seeks to build long term, trust based relationships with the Advisors we work with. We welcome approaches from deal advisors to discuss an opportunity.  Daksfirst approach to evaluate new transactions is very direct and efficient. We respond quickly regarding our interest in an opportunity and we have efficient approach to due diligence.  Please feel free to reach out to us.</p>                  
-                    <a class="filled-button login-button mt-3" href="contact.html">Contact Us</a>
+                    
+                    
+                    <h4>DAKSFIRST</h4>
+                    <hr>
+                    <p><span><em></em></span> is a mid-market focussed private investment firm working on identifying niche areas of credit mispricing driven by operational issues, economies of scale, legal/structure framework or lack of relevant data. We aim to address these risks using innovative ways of combining available data with heuristic frameworks to create value for our investors.</p> 
+                    <p> Daksfirst has launched three funds with a specific mandate on geographies  </p>
+                    
+                    <hr>
+                    <p><span><em><b>Daksfirst - Cayman</b></em></span> Fund set up in Cayman Island to focus on Emerging and Frontier Markets managed under the aegis of Daksfirst Limited. Daksfirst Limited is a UK based FCA regulated firm with specific mandate to manage Emerging and Frontier Markets funds. Cayman fund has a committed Capital of $ 50mn and target fund size of $ 100mn. </p> 
+                    <hr>
+                    <p><span><em><b>Daksfirst - Luxembourg</b></em></span> A Fund set up in Luxembourg which act as a feeder vehicle to the Indian AIF and other European Investments with a separate segregated compartments for different investors.</p> 
+                    <hr>
+                    <p><span><em><b>Daksfirst - India</b> </em></span> A Category II Alternate investment fund registered with SEBI. Daksfirst India Special Situations Fund I has a fund size of ~ $200mn with a committed capital of ~ $ 100mn.</p> 
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="left-image">
-                    <img src="assets/images/partner.jpg" alt="">
+                    <img src="assets/images/about-business.jpg" alt="">
                   </div>
                 </div>
               </div>
@@ -140,9 +165,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <!-- <div class="team">
+   <!--  <div class="team">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
