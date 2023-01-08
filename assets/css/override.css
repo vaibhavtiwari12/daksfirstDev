@@ -381,9 +381,9 @@ footer ul.social-icons li a:hover {
   .team {
     margin-top: 30px;
   }
-  .single-services .col-md-4 {
+  /* .single-services .col-md-4 {
     display: none !important;
-  }
+  } */
   .height-adjuster {
     height: 610px !important;
   }
@@ -401,3 +401,12 @@ footer ul.social-icons li a:hover {
     max-width: 100%;
   }
 }
+@media (max-width: 576px) {
+
+  .small-padding-top-2 {
+    padding-top:2rem!important;
+  }
+
+}
+
+
