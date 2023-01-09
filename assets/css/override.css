@@ -290,6 +290,54 @@ footer ul.social-icons li a:hover {
   color: #fff;
 }
 
+.img-override {
+  max-width: unset!important;
+  border-radius: unset!important;
+  margin: auto!important;
+}
+.bg-card {
+  background: url("../images/radiant-gradient.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.bg-width-7 {
+  width: 20px!important;
+  flex: 0 0 2em;
+} 
+.f-smaller {
+  font-size: smaller;
+}
+.services-top-margin {
+  margin-top: 80px!important;
+}
+
+.bg-sumit {
+  background-size: contain!important;
+  width: 10rem;
+  height: 6rem;
+  background: url("../images/sumit.jpg") no-repeat center center scroll;
+}
+.bg-kartik {
+  background-size: contain!important;
+  width: 10rem;
+  height: 6rem;
+  background: url("../images/kartik.jpg") no-repeat center center scroll;
+}
+.bg-amit {
+  background-size: contain!important;
+  position: relative;
+  width: 10rem;
+  height: 6rem;
+  background: url("../images/Amit.jpg") no-repeat center center scroll;
+}
+.bg-divesh {
+  background-size: contain!important;
+  width: 10rem;
+  height: 6rem;
+  background: url("../images/Divesh.jpeg") no-repeat top center scroll;
+}
 
 @media (min-width: 1200px) {
   .navbar-expand-lg .container {
