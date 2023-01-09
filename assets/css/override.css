@@ -338,6 +338,13 @@ footer ul.social-icons li a:hover {
   height: 6rem;
   background: url("../images/Divesh.jpeg") no-repeat top center scroll;
 }
+.may_stone{
+  text-decoration: underline !important;
+  color: #666666;
+}
+.may_stone:hover{
+  color: #00203f;
+}
 
 @media (min-width: 1200px) {
   .navbar-expand-lg .container {
